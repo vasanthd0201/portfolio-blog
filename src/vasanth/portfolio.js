@@ -120,21 +120,18 @@ function Portfolio() {
   <Container>
     <h2 className="section-title text-center">Experience</h2>
     <div className="timeline">
-      
       <div className="timeline-item">
         <h5 className="fw-bold">Associate Software Engineer</h5>
         <p className="text-muted">CYE Technology Pvt Ltd | Nov 2024 - Present</p>
         <p><strong>Technologies:</strong> PowerApps, Power Automate, SharePoint</p>
         <p><strong>Responsibilities:</strong> Developed automation workflows and business solutions.</p>
       </div>
-
       <div className="timeline-item">
         <h5 className="fw-bold">Power Platform Developer Intern</h5>
         <p className="text-muted">Symmetree Data Processing Pvt Ltd | July 2023 - October 2024</p>
         <p><strong>Technologies:</strong> PowerApps, Power Automate, Power BI, SharePoint</p>
         <p><strong>Responsibilities:</strong> Developed automation workflows and business solutions.</p>
       </div>
-
     </div>
   </Container>
 </section>
