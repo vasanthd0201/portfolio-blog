@@ -68,8 +68,8 @@ function Portfolio() {
           <Row className="g-4">
             {[
               { icon: 'bi-tools', title: 'Tools', text: 'PowerApps, Power Automate, Power BI, Power Pages' },
-              { icon: 'bi-cloud', title: 'Cloud & Platforms', text: 'SharePoint Online, Sharegate, Azure DevOps' },
-              { icon: 'bi-database', title: 'Languages', text: 'SQL' },
+              { icon: 'bi-cloud', title: 'Cloud & Platforms', text: 'SharePoint Online,  Azure DevOps' },
+              { icon: 'bi-database', title: 'Languages', text: 'MY-SQL' },
               { icon: 'bi-globe', title: 'Web Development', text: 'HTML, CSS' },
               { icon: 'bi-person-lines-fill', title: 'Soft Skills', text: 'Problem-solving, Communication, Teamwork' },
             ].map((skill, idx) => (
@@ -116,20 +116,29 @@ function Portfolio() {
         </Container>
       </section>
 
-      {/* Experience Section */}
-      <section id="experience" className="py-5 bg-light">
-        <Container>
-          <h2 className="section-title text-center">Experience</h2>
-          <div className="timeline">
-            <div className="timeline-item">
-              <h5 className="fw-bold">Power Platform Developer Intern</h5>
-              <p className="text-muted">Symmetree Data Processing Pvt Ltd | March 2024 - August 2024</p>
-              <p><strong>Technologies:</strong> PowerApps, Power Automate, Power BI, SharePoint</p>
-              <p><strong>Responsibilities:</strong> Developed automation workflows and business solutions.</p>
-            </div>
-          </div>
-        </Container>
-      </section>
+     <section id="experience" className="py-5 bg-light">
+  <Container>
+    <h2 className="section-title text-center">Experience</h2>
+    <div className="timeline">
+      
+      <div className="timeline-item">
+        <h5 className="fw-bold">Associate Software Engineer</h5>
+        <p className="text-muted">CYE Technology Pvt Ltd | Nov 2024 - Present</p>
+        <p><strong>Technologies:</strong> PowerApps, Power Automate, SharePoint</p>
+        <p><strong>Responsibilities:</strong> Developed automation workflows and business solutions.</p>
+      </div>
+
+      <div className="timeline-item">
+        <h5 className="fw-bold">Power Platform Developer Intern</h5>
+        <p className="text-muted">Symmetree Data Processing Pvt Ltd | July 2023 - October 2024</p>
+        <p><strong>Technologies:</strong> PowerApps, Power Automate, Power BI, SharePoint</p>
+        <p><strong>Responsibilities:</strong> Developed automation workflows and business solutions.</p>
+      </div>
+
+    </div>
+  </Container>
+</section>
+
 
       {/* Certifications Section */}
       <section id="certifications" className="py-5">
