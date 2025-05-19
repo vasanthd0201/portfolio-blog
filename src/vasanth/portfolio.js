@@ -45,7 +45,7 @@ function Portfolio() {
           <h1 className="display-4 fw-bold animate__animated animate__fadeInUp">Vasanth Kumar Reddy</h1>
           <p className="lead">Power Platform Developer</p>
           <p className="fs-5">"Crafting Efficient Business Solutions with Passion and Precision"</p>
-          <Button variant="outline-light" href="/Vasanth-Resume.pdf" download className="mt-3">Download Resume</Button>
+          <Button variant="outline-light" href="/public/Vasanth-Resume.pdf" download className="mt-3">Download Resume</Button>
         </Container>
       </section>
 
@@ -116,26 +116,26 @@ function Portfolio() {
         </Container>
       </section>
 
-     <section id="experience" className="py-5 bg-light">
-  <Container>
-    <h2 className="section-title text-center">Experience</h2>
-    <div className="timeline">
-      <div className="timeline-item">
-        <h5 className="fw-bold">Associate Software Engineer</h5>
-        <p className="text-muted">CYE Technology Pvt Ltd | Nov 2024 - Present</p>
-        <p><strong>Technologies:</strong> PowerApps, Power Automate, SharePoint</p>
-        <p><strong>Responsibilities:</strong> Developed automation workflows and business solutions.</p>
-      </div>
-      <div className="timeline-item">
-        <h5 className="fw-bold">Power Platform Developer Intern</h5>
-        <p className="text-muted">Symmetree Data Processing Pvt Ltd | July 2023 - October 2024</p>
-        <p><strong>Technologies:</strong> PowerApps, Power Automate, Power BI, SharePoint</p>
-        <p><strong>Responsibilities:</strong> Developed automation workflows and business solutions.</p>
-      </div>
-    </div>
-  </Container>
-</section>
-
+      {/* Experience Section */}
+      <section id="experience" className="py-5 bg-light">
+        <Container>
+          <h2 className="section-title text-center">Experience</h2>
+          <div className="timeline">
+            <div className="timeline-item">
+              <h5 className="fw-bold">Associate Software Engineer</h5>
+              <p className="text-muted">CYE Technology Pvt Ltd | Nov 2024 - Present</p>
+              <p><strong>Technologies:</strong> PowerApps, Power Automate, SharePoint</p>
+              <p><strong>Responsibilities:</strong> Developed automation workflows and business solutions.</p>
+            </div>
+            <div className="timeline-item">
+              <h5 className="fw-bold">Power Platform Developer</h5>
+              <p className="text-muted">Techwave Solutions | Jul 2023 - Oct 2024</p>
+              <p><strong>Technologies:</strong> PowerApps, Power Automate, Power BI, SharePoint</p>
+              <p><strong>Responsibilities:</strong> Developed automation workflows and business solutions.</p>
+            </div>
+          </div>
+        </Container>
+      </section>
 
       {/* Certifications Section */}
       <section id="certifications" className="py-5">
@@ -147,25 +147,25 @@ function Portfolio() {
                 title: 'Microsoft Certified: Azure Fundamentals (AZ-900)', 
                 issuer: 'Microsoft', 
                 desc: 'Foundational knowledge of cloud services and Azure.', 
-                pdf: '/certifications/AZ900-vasanth.pdf' // Path to the PDF file
+                pdf: '/certifications/AZ900-vasanth.pdf' 
               },
               { 
                 title: 'Microsoft Certified: Power Platform Developer Associate (PL-400)', 
                 issuer: 'Microsoft', 
                 desc: 'Expertise in Power Platform development.', 
-                pdf: '/certifications/pl400-vasanth.pdf' // Path to the PDF file
+                pdf: '/certifications/pl400-vasanth.pdf' 
               },
               { 
                 title: 'IBM Certified: SQL and Relational Databases 101', 
                 issuer: 'IBM', 
                 desc: 'Mastery of SQL and relational database concepts.', 
-                pdf: '/certifications/Sql-vasanth.pdf' // Path to the PDF file
+                pdf: '/certifications/Sql-vasanth.pdf' 
               },
               { 
                 title: 'Power BI Job Simulation (PwC)', 
                 issuer: 'PwC', 
                 desc: 'Hands-on experience with Power BI in a job simulation.', 
-                pdf: '/certifications/pwc-internship-vasanth.pdf' // Path to the PDF file
+                pdf: '/certifications/pwc-internship-vasanth.pdf' 
               },
             ].map((cert, idx) => (
               <Col key={idx} md={6} xs={12}>
@@ -268,8 +268,7 @@ function Portfolio() {
       {/* Footer Section */}
       <section id="footer" className="py-4 bg-dark text-white text-center">
         <Container>
-          <p className="mb-0">&copy; {new Date().getFullYear()} Vasanth Kumar Reddy. All Rights Reserved.</p>
-          
+          <p className="mb-0">© {new Date().getFullYear()} Vasanth Kumar Reddy. All Rights Reserved.</p>
         </Container>
       </section>
     </div>
