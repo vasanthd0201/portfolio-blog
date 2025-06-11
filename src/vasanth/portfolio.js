@@ -167,14 +167,15 @@ function Portfolio() {
           <h1 className="display-4 fw-bold animate__animated animate__fadeInUp">Vasanth Kumar Reddy</h1>
           <p className="lead">Power Platform Developer</p>
           <p className="fs-5">"Crafting Efficient Business Solutions with Passion and Precision"</p>
-          <Button
-            variant="outline-light"
-            href="/Vasanth-Resume.pdf"
-            download="Vasanth_Resume.pdf"
-            className="mt-3"
-          >
-            Download Resume
-          </Button>
+         <Button
+  variant="outline-light"
+  href={`${process.env.PUBLIC_URL}/Vasanth-Resume.pdf`}
+  download="Vasanth_Resume.pdf"
+  className="mt-3"
+>
+  Download Resume
+</Button>
+
         </Container>
       </section>
 
